@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+}
+
+hr {
+  border-color: #ebebeb;
+  border-style: none;
+  border-top-style: solid;
+  border-width: 1px;
+  margin-top: 25px;
+}
+
+.advance-btn {
+  background-color: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  border: none;
+  box-shadow: none;
+  color: white;
+  font-size: 14px;
+  margin-left: 625px;
+  padding: 7px 10px 7px 10px;
+  text-align: center;
+}
+
+.advanced-google-logo {
+  height: auto;
+  margin-top: 5px;
+  width: 27%;
+}
+
+.advanced-search-field {
+  border: 1px solid #d9d9d9;
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 550px;
+}
+
+.advanced-search-field:focus {
+  border: 1px solid #0096FF;
+  outline: none;
+}
+
+.advance-s, advance-s:link, advance-s:visited {
+  color: black;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.advance-s:active {
+  text-decoration: none;
+}
+
+.advance-s:hover {
+  text-decoration: underline;
+}
+
+.bottom-left-corner {
+  margin-left: 42px;
+  margin-top: 28px;
+}
+
+.center-bottom {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 140px;
+  justify-content: center;
+}
+
+.center-bottom-img-s {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 76px;
+  justify-content: center;
+}
+
+.center-form {
+  padding-left: 45px;
+  padding-top: 45px;
+}
+
+.center-top {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 300px;
+  justify-content: flex-end;
+}
+
+.ex {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  margin-left: 8px;
+}
+
+.feeling-btn {
+  margin-left: 10px;
+}
+
+.form-line {
+  margin-top: 20px;
+}
+
+.google-btn {
+  background-color: #F8F9FA;
+  border: none;
+  font-size: 14px;
+  padding: 9px 17px;
+  text-align: center;
+}
+
+.google-btn:hover {
+  box-shadow: 1px 1px 2px #bbbbbb, 0 0 3px #bbbbbb;
+}
+
+.image-s, image-s:link, image-s:visited {
+  color: black;
+  font-size: 13px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.image-s:active {
+  text-decoration: none;
+}
+
+.image-s:hover {
+  text-decoration: underline;
+}
+
+.img-txt {
+  color: #4285f4;
+  font: 16px;
+  left: 1040px;
+  margin-top: 70px;
+  position: absolute;
+}
+
+.info-txt {
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.input-box {
+  background-color: white;
+  border-color: #bdbdbd;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: thin;
+  height: 40px;
+}
+
+.input-box:hover {
+  box-shadow: 1px 1px 2px #bbbbbb, 0 0 3px #bbbbbb;
+}
+
+.label-txt {
+  display: inline-block;
+  font-size: 13px;
+  width: 180px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.regular-s, regular-s:link, regular-s:visited {
+  color: black;
+  font-size: 13px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.regular-s:active {
+  text-decoration: none;
+}
+
+.regular-s:hover {
+  text-decoration: underline;
+}
+
+.regular-search-field {
+  border: 0;
+  color: black;
+  font-size: 15px;
+  height: 20px;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 530px;
+}
+
+.regular-search-field:focus {
+  outline: none;
+}
+
+.search-title-left {
+  display: inline-block;
+  width: 750px;
+}
+
+.search-title-right {
+  color: grey;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.submit-btn {
+  margin-right: 10px;
+}
+
+.title-label {
+  color: #d93025;
+  font-size: 19px;
+}
+
+.top-left-corner {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 60px;
+  justify-content: flex-start;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.top-right-corner {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  height: 60px;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.two-btns {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: center;
+  margin-top: 30px;
+}

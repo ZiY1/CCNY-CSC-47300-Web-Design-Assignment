@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Google Advanced Search</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="top-nav">
+      <div class="top-left-corner">
+        <a href="index.html"><img class="advanced-google-logo" src="images/googlelogo.png" alt="google-img"></a>
+      </div>
+      <div class="top-right-corner">
+        <a class="regular-s" href="index.html">Search</a>
+        <a class="image-s" href="image-search.html">Image Search</a>
+      </div>
+      <div class="bottom-left-corner">
+        <label class="title-label">Advanced Search</label>
+      </div>
+      <hr>
+    </div>
+    <div class="center-form">
+      <div class="search-form">
+        <form action="https://www.google.com/search" method="get">
+          <div class="form-line-0">
+            <span class="search-title-left">Find Pages with...</span>
+            <span class="search-title-right">To do this in the search box</span>
+          </div>
+          <div class="form-line">
+            <div class="label-txt">
+              <label for="">all these words: </label>
+            </div>
+            <input class="advanced-search-field" type="text" name="as_q">
+            <div class="info-txt">
+              Type the important words:
+              <span class="ex">tricolor rat terrier</span>
+            </div>
+          </div>
+          <div class="form-line">
+            <div class="label-txt">
+              <label for="">this exact word or phrase: </label>
+            </div>
+            <input class="advanced-search-field" type="text" name="as_epq">
+            <div class="info-txt">
+              Put exact words in quotes:
+              <span class="ex">"rat terrier"</span>
+            </div>
+            <div class="form-line">
+              <div class="label-txt">
+                <label for="">any of these words: </label>
+              </div>
+              <input class="advanced-search-field" type="text" name="as_oq">
+              <div class="info-txt">
+                Type<span class="ex">OR</span> between all the words you want:
+                <span class="ex">miniature OR standard</span>
+              </div>
+            </div>
+            <div class="form-line">
+              <div class="label-txt">
+                <label for="">none of these words: </label>
+              </div>
+              <input class="advanced-search-field" type="text" name="as_eq">
+              <div class="info-txt">
+                Put a minus sign just before words you don't want:
+                <span class="ex">-rodent, -"Jack Russell"</span>
+              </div>
+            </div>
+            <div class="form-line">
+              <input type="submit" class="advance-btn" value="Advanced Search">
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
