@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="display">
+      <input id="screen" type="text" placeholder="0">
+    </div>
+
+    <div class="btns">
+      <div class="row">
+        <button class="funct" id="ce" onclick="backspc()">CE</button>
+        <button class="funct" onclick="fact()">x!</button>
+        <button class="funct" class="btn">(</button>
+        <button class="funct" class="btn">)</button>
+        <button class="funct" class="btn">%</button>
+        <button class="funct" id="ac" onclick="screen.value=''">AC</button>
+      </div>
+
+      <div class="row">
+        <button class="funct" onclick="sin()">sin</button>
+        <button class="funct" onclick="pi()">π</button>
+        <button class="btn num">7</button>
+        <button class="btn num">8</button>
+        <button class="btn num">9</button>
+        <button class="btn funct">÷</button>
+      </div>
+
+      <div class="row">
+        <button class="funct" onclick="cos()">cos</button>
+        <button class="funct" onclick="log()">log</button>
+        <button class="btn num">4</button>
+        <button class="btn num">5</button>
+        <button class="btn num">6</button>
+        <button class="btn funct">×</button>
+      </div>
+
+      <div class="row">
+        <button class="funct" onclick="tan()">tan</button>
+        <button class="funct" onclick="sqrt()">√</button>
+        <button class="btn num">1</button>
+        <button class="btn num">2</button>
+        <button class="btn num">3</button>
+        <button class="btn funct">-</button>
+      </div>
+
+      <div class="row">
+        <button class="funct" onclick="e()">e</button>
+        <button class="funct" onclick="pow()">x <span style="position: relative; bottom: .4em; right: .1em;">y</span> </button>
+        <button class="btn num">0</button>
+        <button class="btn num">.</button>
+        <button class="result" id="eval" onclick="screen.value=eval(screen.value)">=</button>
+        <button class="btn funct">+</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
