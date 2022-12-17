@@ -1,0 +1,91 @@
+#result {
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  text-align: right;
+  width: 80%;
+}
+
+.container {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 90px 90px 90px 90px 90px 90px;
+  grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px;
+}
+
+.display {
+  border: 1px solid silver;
+  border-radius: 8px;
+  border-width: 1px;
+  grid-column: 1/7;
+  grid-row: 1/3;
+  padding-bottom: 8px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.exponent {
+  bottom: .4em;
+  position: relative;
+  right: .1em;
+}
+
+.input-box {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  text-align: right;
+  width: 90%;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 800px;
+  justify-content: center;
+}
+
+.num {
+  background: #f1f3f4;
+  border: 1px solid #f1f3f4;
+  border-radius: 4px;
+  color: #202124;
+}
+
+.res {
+  background: #4285f4;
+  border: 1px solid #4285f4;
+  border-radius: 4px;
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+button {
+  background-color: #DBDCDF;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+button:active {
+  border: 1px solid gray;
+}
+
+button:hover {
+  cursor: pointer;
+}
